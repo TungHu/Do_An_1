@@ -1,0 +1,45 @@
+.device_container {
+
+}
+
+.device {
+    width: 300px;
+    padding: 10px 30px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.device_conected {
+    background-color: rgb(164, 247, 247);
+}
+
+.device_disconected {
+    background-color: rgb(210, 208, 208);
+}
+
+.switch_containter {
+    display: flex;
+    flex-direction: row;
+}
+
+.slider_containter {
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+}
+
+.switch_loading {
+    margin: 7px 10px;
+}
+
+.slider {
+    width: 200px;
+}
+
+.slider_loading {
+    margin-left: 30px;    
+}
+
+.connectStatus {
+    color: blueviolet;
+}

@@ -1,0 +1,26 @@
+.add_device_wrap {
+    padding: 10px;
+}
+
+.add_device_container {
+    border-radius: 10px;
+    background-color: rgb(244, 225, 202);
+    position: absolute;
+    width: 400px;
+    padding: 15px 30px;
+    display: flex;
+    flex-direction: column;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.input {
+    margin: 5px;
+    width: 90%;
+    height: 25px;
+}
+
+.text_field_wrap {
+    margin: 20px;
+}
